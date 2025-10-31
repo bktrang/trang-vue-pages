@@ -20,6 +20,7 @@ export default {
   data() {
     return {
       quote: '',       // stores the quote text
+      author: '',      // stores the quote's author
       loading: false   // tracks loading status
     }
   },
@@ -56,23 +57,13 @@ export default {
 </script>
 
 
-
 <style>
-.container {
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  font-family: Arial, sans-serif;
-  margin-top: 50px;
+  color: #2c3e50;
+  margin-top: 60px;
 }
-button {
-  margin-top: 20px;
-  padding: 10px 20px;
-  font-size: 16px;
-}
-.author {
-  font-style: italic;
-  color: #555;
-  margin-top: 5px;
-}
-
 </style>
-
