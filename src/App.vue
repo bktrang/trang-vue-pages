@@ -20,7 +20,6 @@ export default {
   data() {
     return {
       quote: '',       // stores the quote text
-      author: '',      // stores the quote's author
       loading: false   // tracks loading status
     }
   },
